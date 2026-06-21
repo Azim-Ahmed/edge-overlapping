@@ -157,6 +157,12 @@ These pure functions power the edge and are exported for advanced/custom routing
 
 </details>
 
+## Support
+
+If this package saves you time, consider buying me a coffee — it helps me keep building open-source workflow and UI tools.
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/azimahmed)
+
 ## License
 
 [MIT](./LICENSE)

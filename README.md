@@ -73,6 +73,13 @@ npm publish --access public --otp=YOUR_6_DIGIT_CODE
 - [Tailwind CSS](https://tailwindcss.com) (demo styling)
 - [tsup](https://tsup.egoist.dev) (package bundling)
 
+## Support
+
+More React Flow templates and examples: [VisualFlow](https://www.visualflow.dev/)
+
+[![VisualFlow](https://img.shields.io/badge/VisualFlow-React%20Flow%20Templates-6366f1?style=for-the-badge)](https://www.visualflow.dev/)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/azimahmed)
+
 ## License
 
 [MIT](./LICENSE)

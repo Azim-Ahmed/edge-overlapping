@@ -35,6 +35,7 @@ By default, React Flow edges that cross just overlap in a flat, ambiguous tangle
 - [Configuration](#configuration)
 - [Notes & gotchas](#notes--gotchas)
 - [API reference](#api-reference)
+- [Support](#support)
 - [License](#license)
 
 ## Install
@@ -159,7 +160,11 @@ These pure functions power the edge and are exported for advanced/custom routing
 
 ## Support
 
-If this package saves you time, consider buying me a coffee — it helps me keep building open-source workflow and UI tools.
+If this package saves you time, check out more React Flow templates and examples on [VisualFlow](https://www.visualflow.dev/) — production-ready workflow builders, automation UIs, and diagram tools you can ship in days.
+
+[![VisualFlow](https://img.shields.io/badge/VisualFlow-React%20Flow%20Templates-6366f1?style=for-the-badge)](https://www.visualflow.dev/)
+
+If you'd like to support ongoing open-source work, you can also buy me a coffee:
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/azimahmed)
 

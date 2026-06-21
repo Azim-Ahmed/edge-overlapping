@@ -1,14 +1,14 @@
 {
-  "name": "react-flow-edge-lapping",
+  "name": "react-flow-edge-overlapping",
   "version": "0.1.0",
-  "description": "Lapping (hop) edges for React Flow / @xyflow/react — draws little bridge arcs where wires cross, like a circuit diagram.",
+  "description": "Overlapping (hop) edges for React Flow / @xyflow/react — draws little bridge arcs where wires cross, like a circuit diagram.",
   "keywords": [
     "react-flow",
     "reactflow",
     "xyflow",
     "edge",
     "hop",
-    "lapping",
+    "overlapping",
     "circuit",
     "diagram",
     "svg"
@@ -16,8 +16,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azim/edge-lapping.git",
-    "directory": "packages/react-flow-edge-lapping"
+    "url": "git+https://github.com/azim/edge-overlapping.git",
+    "directory": "packages/react-flow-edge-overlapping"
   },
   "type": "module",
   "sideEffects": false,

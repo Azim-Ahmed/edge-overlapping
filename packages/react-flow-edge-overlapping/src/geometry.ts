@@ -23,7 +23,7 @@ export function buildPolyline(
 
 /**
  * Turn a polyline + the hops that cross it into an SVG path string, drawing a
- * small arc (bridge) at each hop so crossing wires appear to "lap" over each other.
+ * small arc (bridge) at each hop so crossing wires appear to overlap cleanly.
  */
 export function polylineToPath(points: Pt[], hops: Hop[], hopRadius: number): string {
   const HOP_R = hopRadius;

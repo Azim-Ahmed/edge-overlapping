@@ -3,7 +3,7 @@ export type Pt = { x: number; y: number };
 export type Hop = { segIndex: number; at: number; side: 1 | -1 };
 
 /**
- * Tuning options for the lapping (hop) edge. All values have sensible defaults;
+ * Tuning options for the overlapping (hop) edge. All values have sensible defaults;
  * override them globally via `createHopEdge(options)` or per-edge via `edge.data`.
  */
 export type HopEdgeOptions = {

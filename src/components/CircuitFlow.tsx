@@ -33,7 +33,7 @@ import {
   GitBranch,
 } from "lucide-react";
 import { SITE } from "@/lib/site";
-import { HopEdge } from "react-flow-edge-lapping";
+import { HopEdge } from "react-flow-edge-overlapping";
 
 /* ─────────────────────────────────────────
    Icon lookup
@@ -263,7 +263,7 @@ const edgeTypes: EdgeTypes = { hop: HopEdge };
 /* ─────────────────────────────────────────
    Initial graph — CI/CD pipeline
    
-   Two wires intentionally cross to showcase the lapping (hop) edge feature:
+   Two wires intentionally cross to showcase the overlapping (hop) edge feature:
      • schedule → build  (goes up-right,  placed FIRST  → drawn underneath)
      • push     → test   (goes down-right, placed SECOND → draws the hop arc)
    
@@ -527,7 +527,7 @@ function CircuitFlowInner() {
         </div>
         <div className="ml-auto flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-3 py-1">
           <span className="h-2 w-2 rounded-full bg-emerald-400" />
-          <span className="text-[10px] font-medium text-slate-500">Lapping edges active</span>
+          <span className="text-[10px] font-medium text-slate-500">Overlapping edges active</span>
         </div>
       </header>
 

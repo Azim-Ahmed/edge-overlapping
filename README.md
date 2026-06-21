@@ -1,1 +1,1 @@
-edge lapping
+edge overlapping

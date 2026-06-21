@@ -1,6 +1,6 @@
-# react-flow-edge-lapping
+# react-flow-edge-overlapping
 
-Lapping (hop) edges for [React Flow](https://reactflow.dev) / `@xyflow/react`.
+Overlapping (hop) edges for [React Flow](https://reactflow.dev) / `@xyflow/react`.
 
 When two wires cross, the edge on top draws a small bridge arc ("hop") over the
 one underneath — exactly like a circuit / electrical schematic. Sibling edges
@@ -11,9 +11,9 @@ configurable.
 ## Install
 
 ```bash
-npm install react-flow-edge-lapping
+npm install react-flow-edge-overlapping
 # or
-bun add react-flow-edge-lapping
+bun add react-flow-edge-overlapping
 ```
 
 This package has peer dependencies you almost certainly already have:
@@ -28,7 +28,7 @@ Register the edge in `edgeTypes` and give your edges `type: "hop"`:
 
 ```tsx
 import { ReactFlow } from "@xyflow/react";
-import { HopEdge } from "react-flow-edge-lapping";
+import { HopEdge } from "react-flow-edge-overlapping";
 import "@xyflow/react/dist/style.css";
 
 const edgeTypes = { hop: HopEdge };
@@ -67,7 +67,7 @@ edge, so the hop edge fits whatever theme you already use.
 Use `createHopEdge(options)` to build a configured component:
 
 ```tsx
-import { createHopEdge } from "react-flow-edge-lapping";
+import { createHopEdge } from "react-flow-edge-overlapping";
 
 const edgeTypes = {
   hop: createHopEdge({
@@ -111,13 +111,13 @@ const edges = [
 This package lives in a bun workspace; the repo root app is the live demo.
 
 ```bash
-# from packages/react-flow-edge-lapping
+# from packages/react-flow-edge-overlapping
 bun run build          # emits dist/ (ESM + CJS + .d.ts) via tsup
 npm pack --dry-run     # preview the exact files that will be published
 
 # publish to the public npm registry (first publish of a non-scoped package)
 npm login
-npm publish --access public
+npm publish --access public --otp=YOUR_6_DIGIT_CODE
 ```
 
 Bump the version with `npm version patch|minor|major` before publishing. The

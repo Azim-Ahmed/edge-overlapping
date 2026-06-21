@@ -12,7 +12,7 @@ const edgesSelector = (s: ReactFlowState) => s.edges;
 const nodesSelector = (s: ReactFlowState) => s.nodeLookup;
 
 /**
- * Create a React Flow edge component that renders lapping (hop) edges, where
+ * Create a React Flow edge component that renders overlapping (hop) edges, where
  * crossing wires draw a small bridge arc. Pass the result into `edgeTypes`.
  *
  * @example
@@ -89,5 +89,5 @@ export function createHopEdge(options: HopEdgeOptions = {}) {
   return HopEdgeComponent;
 }
 
-/** Default-configured lapping (hop) edge. Register it directly in `edgeTypes`. */
+/** Default-configured overlapping (hop) edge. Register it directly in `edgeTypes`. */
 export const HopEdge = createHopEdge();
